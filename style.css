@@ -1,4 +1,28 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header, #content {
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+  width: 585px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#foto {
+  width:200px;
+}
+#dados-contato {
+  display: inline-block;
+  padding-left: 10px;
+  position: relative;
+  top: -20px;
+}
+#content {
+  margin-top: 15px;
+  padding: 0 15px;
 }
